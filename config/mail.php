@@ -7,12 +7,12 @@ return [
     "host" => "smtp.mailtrap.io",
     "port" => 2525,
     "from" => array(
-        "address" => "from@example.com",
-        "name" => "Example"
+        "address" => "Your_Address",
+        "name" => "Your_Name"
     ),
-    "username" => "04c79412b1b908",
-    "password" => "22b3ff439a15ea",
-    "sendmail" => "/usr/sbin/sendmail -bs"
+    "username" => "Your_User_Name",
+    "password" => "Your_Password",
+    "sendmail" => ""
   ];
 
 
