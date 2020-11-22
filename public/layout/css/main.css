@@ -1,0 +1,566 @@
+/*colors
+1-#FF2568
+2- #D72258
+*/
+
+body {
+    color: #2C3E50;
+    font-family: Ebrima;
+}
+
+.overlay .title {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Cooper;
+}
+
+.overlay {
+    position: absolute;
+    top: 135px;
+    margin-left: 50px;
+}
+
+.overlay .txt-overlay {
+    font-size: 20px;
+    top: 160px;
+    text-align: center;
+}
+
+
+/* home style */
+
+
+/*start navbar */
+
+.navbar-expand-lg {
+    background-color: #FFFFFF !important;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.navbar-expand-lg .navbar-brand img {
+    width: 130px;
+}
+
+.navbar-expand-lg .nav-item .nav-link {
+    text-align: center;
+}
+
+.navbar-expand-lg .nav-item .nav-link .parallelogram-active {
+    position: absolute;
+    width: 100.95px;
+    height: 44.08px;
+    transform: skew(20deg);
+    background-color: #FF2568;
+    box-shadow: 1px 1px 1px 1px #DDD;
+    margin-top: 23px;
+}
+
+.navbar-expand-lg .nav-item .nav-link .parallelnavcolor {
+    position: absolute;
+    width: 100.95px;
+    height: 44.08px;
+    margin-top: 23px;
+    transform: skew(20deg);
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 1px 1px #DDD;
+}
+
+.navbar-expand-lg .nav-item .txt {
+    font-style: oblique;
+    font-family: Hacen Promoter;
+    margin-top: 32px;
+    position: relative;
+    margin-left: 97px;
+}
+
+
+/*start silder */
+
+.slider img {
+    width: 100%;
+    height: 450px;
+}
+
+
+/*start home card */
+
+.card_project {
+    margin-top: -110px;
+}
+
+.card_project .card {
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #ddd;
+    margin-bottom: 10px;
+    width: 290px;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.card_project .card .card-body img {
+    width: 250px;
+    height: 164px;
+    margin: 0% auto;
+}
+
+
+/*===========================================================================================*/
+
+
+/*start about page */
+
+
+/*start slider-about */
+
+.slider-about {
+    background-color: #ffffeb;
+}
+
+.slider-about img {
+    width: 41%;
+    height: 450px;
+}
+
+
+/* end slider-about */
+
+
+/*start card-info */
+
+.card_about .card {
+    border: none;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin: -7px;
+    background-color: #ffffeb;
+    margin-bottom: 40px;
+}
+
+.about .card {
+    box-shadow: 1.5px 1.5px 2px 2px #ddd;
+    background-color: #ffffeb;
+    border: none;
+    margin: 4% auto;
+}
+
+.about .card h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about .card p {
+    line-height: 3;
+    font-size: 28px;
+    width: 80%;
+    margin: 0 auto 15px;
+    color: #6a6a6a;
+}
+
+.code-info img {
+    max-width: 100%;
+}
+
+.code-info .info:last-child {
+    background-color: #fff;
+    color: #2C3E50;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+}
+
+.code-info .info p {
+    line-height: 2;
+    width: 80%;
+    margin: 0 auto 15px;
+}
+
+
+/* footer about  start */
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-card {
+    margin-top: 40px;
+}
+
+.footer-card .card {
+    border: 0px;
+}
+
+.footer-card .card .logo-img img {
+    width: 100%;
+    margin-top: 163px;
+    padding: 15px;
+}
+
+.footer-card .info-card {
+    width: 510px;
+    margin-right: 72px;
+    float: right;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 27px;
+}
+
+.footer-card .info-card .tem-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer-card .info-card .tem-name {
+    float: right;
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 23px;
+    margin: 15px;
+    font-family: Hacen Promoter;
+}
+
+.footer-card .info-card .tem-name span {
+    float: right;
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: Hacen Promoter;
+}
+
+
+/*=================================================================================================*/
+
+
+/* our services */
+
+
+/* silder our */
+
+.slider-our img {
+    width: 100%;
+    height: 450px;
+}
+
+.slider-our .img-our img {
+    height: 20%;
+    width: 10%;
+    margin-left: 72px;
+}
+
+.slider-our .img-our p {
+    margin-top: -115px;
+    margin-left: 132px;
+}
+
+.slider-our .overlay .txt-overlay {
+    font-family: Ebrima;
+    font-size: 32px;
+    top: 120px;
+    position: absolute;
+    margin-left: 130px;
+    font-style: inherit;
+    font-weight: initial;
+}
+
+
+/*====================================================================================*/
+
+
+/*start contact */
+
+.slider-contact img {
+    width: 100%;
+    height: 450px;
+}
+
+.slider-contact .overlay {
+    position: absolute;
+    top: 170px;
+}
+
+.slider-contact .overlay .title {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Cooper;
+    color: #2C3E50;
+}
+
+.slider-contact .img-our img {
+    height: 20%;
+    width: 10%;
+    margin-left: 72px;
+}
+
+.slider-contact .img-our p {
+    margin-top: -115px;
+    margin-left: 132px;
+}
+
+.slider-contact .overlay .txt-overlay {
+    font-family: Ebrima;
+    font-size: 29px;
+    top: 128px;
+    position: absolute;
+    font-style: inherit;
+    font-weight: initial;
+}
+
+.slider-contact .overlay .contact-icon ul {
+    list-style: none;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 36px;
+}
+
+.slider-contact .overlay .contact-icon li {
+    height: 50px;
+    width: 50px;
+    background-color: #31859C;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.slider-contact .overlay .contact-icon .icons {
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.slider-contact .overlay .contact-icon .icons i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.contact {
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-top: -22px;
+    border-radius: 45px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.contact-inf .inf {
+    margin-left: 71px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    padding: 10px;
+    width: 390px;
+}
+
+.contact-inf h1 {
+    font-weight: bold;
+    font-family: Cooper;
+    margin: 20px;
+}
+
+.contact-inf .inf img {
+    width: 74px;
+    float: left;
+    margin-top: -23px;
+    margin-left: -24px;
+}
+
+.contact .contac-img .img img {
+    position: absolute;
+    position: absolute;
+    margin-top: 133px;
+    float: right;
+    margin-left: -449px;
+}
+
+.contact .contac-img .back-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 47px;
+}
+
+
+/*========================================================================================*/
+
+
+/*start prgram page */
+
+.slider-program img {
+    width: 100%;
+    height: 450px;
+}
+
+.slider-program .overlay .txt-overlay {
+    font-family: Ebrima;
+    font-size: 29px;
+    top: 135px;
+    position: absolute;
+    font-style: inherit;
+    font-weight: initial;
+}
+
+
+/*==================================================================================================*/
+
+
+/* start courese */
+
+.slider .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-indicators li {
+    height: 8px;
+    cursor: pointer;
+    background-color: #2C3E50;
+    color: #B78300;
+}
+
+.slider-courese .overlay .txt-overlay {
+    font-size: 20px;
+    top: 129px;
+    position: absolute;
+    margin-left: 71px;
+}
+
+.slider-courese .carousel-two .overlay {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.slider-courese .carousel-two .overlay .txt-overlay {
+    margin-left: 12px;
+}
+
+.slider-courese .carousel-three .overlay {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.slider-courese .carousel-three .overlay .txt-overlay {
+    margin-left: 12px;
+}
+
+.title-courese h1 {
+    font-size: 64px;
+    font-family: Cooper;
+    font-weight: bold;
+}
+
+.courese-body .title img {
+    width: 30%;
+    margin-left: -22px;
+    margin-top: -92px;
+}
+
+.courese-body .title p {
+    margin-top: -66px;
+    margin-left: 109px;
+    font-size: 18px;
+    font-family: Cooper;
+    font-weight: bold;
+}
+
+.card-courese {
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-top: 79px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    height: 280px;
+    background-color: #fff;
+}
+
+.card-courese .card-body img {
+    width: 325px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin-left: -24px;
+    background-color: #fff;
+    margin-top: -42px;
+    border-radius: 20px;
+    height: 230px;
+}
+
+.card-courese .btn-primary {
+    border-radius: 0px 22px 0px 14px;
+    margin-left: 0px;
+    background-color: #2C3E50;
+    margin-top: 5px;
+}
+
+
+/*start test style */
+
+.card-slider {
+    margin: 0% auto;
+}
+
+.card-slider .card-coureses .card-img-top {
+    width: 320px;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 3% auto;
+}
+
+.card-slider .card-coureses {
+    box-shadow: 1px 1px 1px 1px #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    margin-bottom: 23px;
+}
+
+.card-slider .card-coureses .btn-warning {
+    border-radius: 0px 22px 0px 14px;
+    background-color: #2C3E50;
+    height: 48px;
+    color: #fff;
+    font-size: 20px;
+    border-color: #2C3E50;
+}
+
+
+/*================================================================================*/
+
+
+/*start video */
+
+.video .card {
+    width: 650px;
+    margin: 5% auto;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.video .card .card-footer {
+    color: #fff;
+    font-size: 20px;
+    background-color: #2C3E50;
+    font-family: Ebrima;
+}
+
+.video .card .card-footer .next-video a {
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    margin-top: -31px;
+}
+
+.video iframe {
+    width: 600px;
+    height: 300px;
+}

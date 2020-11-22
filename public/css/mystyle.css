@@ -1,0 +1,310 @@
+/*
+    Used Fonts : OpenSans
+*/
+
+@font-face {
+    font-family:opensans_bold;
+    src:url('/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family:opensans_SemiBold;
+    src:url('/fonts/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family:opensans_light;
+    src:url('/fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family:opensans_Regular;
+    src:url('/fonts/OpenSans-Regular.ttf');
+}
+
+.register_style{
+    font-family:opensans_Regular !important;
+    color:#2D3436 !important;
+    background-color:#fff;
+}
+
+.body_style{
+    font-family:opensans_Regular !important;
+    color:#2D3436 !important;
+    background-color:#F0F0F7;
+}
+
+
+/*
+    Table Style
+*/
+
+.table_header{
+    background-color:#F0F0F7 !important;
+}
+
+.table_row{
+    border-top:0px !important;
+    border-bottom:0px !important;
+}
+
+
+/*
+    Badge Style
+*/
+
+.badge_green{
+    color:#2D3436;
+    background-color:#fff;
+    border-color:#50BFA0;
+}
+
+.badge_green:hover , .badge_green:focus{
+    color:white;
+    background-color:#50BFA0;
+    border-color:#50BFA0;
+}
+
+/*
+    Users Profile badge
+*/
+.badge_green_profile{
+    color:#fff !important;
+    background-color:#50BFA0 !important;
+}
+
+
+/*
+    Buttons Style 
+*/
+
+.btn-green{
+    color:#2D3436;
+    background-color:#fff;
+    border-color:#50BFA0;
+}
+
+.btn-green:hover , .btn-green:focus{ 
+    color: white;
+    background-color:#50BFA0;
+    border-color:#50BFA0;
+}
+
+.btn-edit{
+    color:#2D3436;
+    background-color:#fff;
+    border-color:#3B86FF;
+}
+
+.btn-edit:hover , .btn-edit:focus{ 
+    color:white;
+    background-color:#3B86FF;
+    border-color:#3B86FF;
+}
+
+.btn-delete{
+    color:#2D3436;
+    background-color:#fff;
+    border-color:#F25749;
+}
+
+.btn-delete:hover , .btn-delete:focus{ 
+    color: white;
+    background-color:#F25749;
+    border-color:#F25749;
+}
+
+
+/*
+    Card Style
+*/
+
+.card_style{
+    background-color:#fff !important;
+    border:0px;
+    border-radius:5px;
+}
+
+.card_header{
+    background-color:#fff;
+    border-top:1px;
+    border-color:#fff;
+    border-radius:5px !important;
+}
+
+.text-header{
+    font-family:opensans_SemiBold !important;
+    font-size:25px;
+}
+
+.card_label{
+    font-size:20px;
+}
+
+/*
+    Register and Login Style 
+*/
+.register_card{
+    background-color:#F0F0F7;
+    border:0px;
+}
+
+.register_header
+{
+    font-family:opensans_SemiBold !important;
+    font-size:25px;
+}
+
+.link_color
+{
+    color:rgb(131, 131, 131);
+}
+
+.link_color:hover
+{
+    color:#3B86FF;
+    text-decoration:none;
+}
+
+
+.form-group .form-control, .form-group .select2-search input[type="text"], 
+.select2-search .form-group input[type="text"], .form-control, 
+.select2-search input[type="text"] {
+    border:none;
+    outline: 0;
+    box-shadow: none;
+    border-radius:3px;
+}
+
+.form-group.focus .form-control, .form-group.focus .select2-search input[type="text"], 
+.select2-search .form-group.focus input[type="text"], .form-control:focus, 
+.select2-search input[type="text"]:focus {
+    border:none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.form-control, .select2-search input[type="text"] {
+    border: 2px solid #bdc3c7;
+    color: #34495e;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.467;
+    padding: 8px 12px;
+    height: 42px;
+    border-radius: 6px;
+    box-shadow: none;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+/*
+    Main Dashboard Style 
+*/
+.main_card{
+    border:0px;
+    background-color:#fff;
+}
+
+.shadow{
+    border:0px;
+    border-radius:5px;
+    -moz-box-shadow:inset 0 3px 3px rgba(0,0,0,0.25);
+    -webkit-box-shadow:inset 0 3px 3px rgba(0,0,0,0.25);
+    box-shadow:inset 0 3px 3px rgba(0,0,0,0.25);
+}
+
+.text_color{
+    color:#3B86FF;
+    font-family:opensans_SemiBold !important;
+    font-size:20px;
+}
+
+.icon_color{
+    color:#3B86FF;
+    margin-left:80px;
+}
+
+
+
+/*
+    Profile Style
+*/
+
+.form-group-sty .form-control-sty, .form-group-sty .select2-search .input_style[type="text"], 
+.select2-search .form-group-sty .input_style[type="text"], .form-control-sty, 
+.select2-search .input_style[type="text"] {
+    border:none;
+    outline: 0;
+    box-shadow: none;
+    border-radius:3px;
+}
+
+.form-group-sty .form-control-sty, .form-group-sty .select2-search .input_style[type="text"], 
+.select2-search .form-group-sty .input_style[type="text"], .form-control-sty, 
+.select2-search .input_style[type="text"]{
+    border:none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.form-control-sty, .select2-search .input_style:focus[type="text"] {
+    background-color:#F0F0F7;
+    border: 2px solid #bdc3c7;
+    color:rgb(131, 131, 131);
+    font-size: 15px;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+
+.form-control-sty:focus, .select2-search:focus .input_style:focus[type="text"] {
+    background-color:#F0F0F7;
+    color:rgb(131, 131, 131);
+    font-size: 15px;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+/*
+    Show Single Service Modal
+*/
+
+.modal_image{
+    width:420px;
+    height:300px;
+    border-radius:5px;
+}
+
+.modal_footer_sty{
+    border:0px;
+}
+
+
+/*
+    Circle Image 
+*/
+.circle_image{
+    border-radius:50px;
+}
+
+
+
+.top_style{
+    height:400px;
+}
+
+/*
+    Single Profile Card
+*/
+.profile_card{
+    font-family:opensans_Regular !important;
+    font-size:20px;
+}
+
+
+/*
+    Footer
+*/
+.footer_coprright{
+    color:#3B86FF;
+}
